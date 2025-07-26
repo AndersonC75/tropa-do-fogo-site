@@ -61,7 +61,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				gta: {
+					orange: 'hsl(var(--gta-orange))',
+					'orange-glow': 'hsl(var(--gta-orange-glow))',
+					dark: 'hsl(var(--gta-dark))',
+					darker: 'hsl(var(--gta-darker))',
+					gray: 'hsl(var(--gta-gray))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-orange': 'var(--gradient-orange)',
+				'gradient-card': 'var(--gradient-card)'
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'intense': 'var(--shadow-intense)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
