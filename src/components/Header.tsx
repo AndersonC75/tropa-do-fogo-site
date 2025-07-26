@@ -5,12 +5,22 @@ const Header = () => {
   return (
     <header className="fixed top-0 w-full z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-        <div className="flex items-center space-x-2">
-          <div className="text-2xl font-bold bg-gradient-orange bg-clip-text text-transparent">
-            TDFA
-          </div>
-          <div className="hidden md:block text-muted-foreground">
-            Tropa do Fogo Amigo
+        <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/lovable-uploads/18caeaf9-58fb-4b0f-a6f0-a632cd946dab.png" 
+              alt="TDFA Logo" 
+              className="w-12 h-12 object-contain"
+            />
+            
+            <div>
+              <div className="text-2xl font-bold bg-gradient-orange bg-clip-text text-transparent">
+                TDFA
+              </div>
+              <div className="hidden md:block text-sm text-muted-foreground">
+                Tropa do Fogo Amigo
+              </div>
+            </div>
           </div>
         </div>
         
